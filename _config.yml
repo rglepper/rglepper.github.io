@@ -1,19 +1,32 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'jekyll serve'. If you change this file, please restart the server process.
-
 # Site settings
 title: Rafa Garcia-Lepper
 email: rafael.g.lepper@gmail.com
-description: > # this means to ignore newlines until "baseurl:"
-  Rafa Garcia-Lepper, Javascript consultant based in Bournemouth, UK 
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://rafagarcialepper.com" # the base hostname & protocol for your site
-twitter_username: rglepper
-github_username:  rglepper
+url: http://rafagarcialepper.com
+role: Front-end engineer
+phone: 07833463308
+description: "Front-end engineer specialising in writing modular, responsive, maintainable and scalable web systems"
+
+# Footer settings
+footer: Rafa Garcia-Lepper
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: twitter
+    url: https://twitter.com/rglepper
+  - title: linkedin
+    url: https://www.linkedin.com/in/rafaelgarcialepper/
+  - title: stackoverflow
+    url: http://stackoverflow.com/users/1159471/rglepper
+  - title: github
+    url: https://github.com/rglepper
 
 # Build settings
 markdown: kramdown
+permalink: pretty
+sass:
+    sass_dir: _sass
+
+defaults:
+    path: "assets/img"
+    values:
+      image: true
