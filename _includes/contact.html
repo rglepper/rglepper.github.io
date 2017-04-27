@@ -1,0 +1,27 @@
+    <!-- Contact Section -->
+    <section id="contact" class=" u-margin-bottom-huge@desktop">
+        <div class="o-wrapper">
+            <h2 class="c-heading-section u-align-center@mobile">Work with me</h2>
+            <div  class="u-4/5@desktop o-wrapper" >
+                <p>I'd love to hear from you and your project. I am based in Bournemouth, UK, and <strong>I’m currently accepting projects for Q2</strong>, so feel free to drop me a line or call me.</p>
+                 <div class="o-layout">
+                    <div class="o-layout__item u-1/2@tablet">
+                        <ul class="o-list-bare">
+                            <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+                            <li><a href="tel:{{ site.phone }}">{{ site.phone }}</a></li>
+                        </ul>
+
+                    </div>
+                    <div class="o-layout__item u-1/2@tablet">
+                        <ul class="o-list-inline o-block--right">
+                            {% for network in site.social %}
+                            <li class="o-list-inline__item u-margin-right-tiny">
+                                <a href="{{ network.url }}"><i class="socicon socicon-{{ network.title }}"></i></a>
+                            </li>
+                            {% endfor %}
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
