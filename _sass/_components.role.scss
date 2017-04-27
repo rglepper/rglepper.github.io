@@ -1,0 +1,21 @@
+/* ==========================================================================
+   #Role
+   ========================================================================== */
+
+.c-role {
+	color: $color-white;
+	text-transform: uppercase;
+	font-family: $global-serif;
+	font-weight: regular;
+	transition: $global-transition;
+	@include inuit-font-size($inuit-font-size-h5, $important: true);
+	@include mq(mobile-lg) {
+		@include inuit-font-size($inuit-font-size-h4, $important: true);
+	}
+	@include mq(tablet) {
+		@include inuit-font-size($inuit-font-size-h3, $important: true);
+	}
+	@include mq(desktop) {
+		@include inuit-font-size($inuit-font-size-h2, $important: true);
+	}
+}

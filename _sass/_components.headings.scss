@@ -1,0 +1,36 @@
+/* ==========================================================================
+   #HEADINGS
+   ========================================================================== */
+h1, h2, h3, h4, h5, h6 {
+	font-family: $global-serif;
+	font-weight: 400;
+	color: $color-headings;
+}
+.c-heading-main {
+    color: $color-heading-main;
+    text-transform: lowercase;
+    text-align: right;
+    transition: $global-transition;
+    @include inuit-font-size($inuit-font-size-h1*.9, $important: true);
+    @include mq(mobile-lg) {
+        @include inuit-font-size($inuit-font-size-h1*1.1, $important: true);
+    }
+    @include mq(tablet) {
+        @include inuit-font-size($inuit-font-size-h1*1.4, $important: true);
+    }
+    @include mq(desktop) {
+        @include inuit-font-size($inuit-font-size-h1*1.6, $important: true);
+    }
+}
+
+.c-heading-section {
+	// color: $color-heading-sub;
+	// @include inuit-font-size($inuit-font-size-h1, $important: true);
+	text-transform: uppercase;
+}
+
+.c-heading-sub {
+	color: $color-heading-sub;
+	text-align: right;
+	text-transform: lowercase;
+}

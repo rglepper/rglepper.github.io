@@ -1,0 +1,30 @@
+/*------------------------------------*\
+    #BAND
+\*------------------------------------*/
+
+.c-band {
+    padding-top:    $inuit-global-spacing-unit;
+    padding-bottom: $inuit-global-spacing-unit;
+
+    @include mq(desktop) {
+        padding-top:    $inuit-global-spacing-unit-factor-large;
+        padding-bottom: $inuit-global-spacing-unit-factor-large;
+    }
+
+}
+
+.c-band--huge {
+    padding: $inuit-global-spacing-unit-factor-large;
+    @include mq(desktop) {
+        padding-top:    $inuit-global-spacing-unit-factor-huge;
+        padding-bottom: $inuit-global-spacing-unit-factor-huge;
+    }
+}
+
+.c-band--dark {
+    background-color: $color-blue-dark;
+    color: $color-blue;
+}
+.c-band--darker {
+    background-color: darken($color-blue-dark, 6%);
+}

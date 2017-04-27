@@ -1,0 +1,23 @@
+/* ==========================================================================
+   #HEADER
+   ========================================================================== */
+
+.c-header {
+  @include mq(mobile-lg) {
+    background-image: url('../img/main-bg.jpg');
+    background-size: 67%;
+    background-repeat: no-repeat;
+    height: 380px;
+  }
+  @include mq(tablet) {
+    background-size: 78%;
+    height: 580px;
+  }
+  @include mq(desktop) {
+    background-size: 67%;
+    height: 680px;
+  }
+  @include mq(wide) {
+    height: 780px;
+  }
+}

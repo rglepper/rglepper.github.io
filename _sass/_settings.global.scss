@@ -1,0 +1,85 @@
+///* ========================================================================
+//   #GLOBAL
+//   ======================================================================== */
+// The global settings file contains any project-wide variables; things that
+// need to be made available to the entire codebase.
+
+// Standardise some UI treatments.
+$global-radius: 0;
+$global-transition: all 300ms ease-in-out !default;
+
+$global-serif: 'Domine', serif;
+$global-sans-serif: 'Open Sans', sans-serif;
+
+
+///*------------------------------------*\
+//    #COLORS
+//\*------------------------------------*/
+
+$color-brand:       #70c045;
+$color-blue:        #00a2c1;
+$color-blue-dark:   #00252f;
+$color-white:       #ececec;
+$color-black:       #000;
+$color-gray:        #444;
+$color-gray-light:  #bdbdc2;
+$color-gray-ui:     #ddd;
+$color-green:       #70c045;
+$color-highlight:   $color-brand;
+$color-tint:        #f2f2f2;
+$color-positive:    #3f990f;
+$color-negative:    #9f102e;
+
+// Page
+$inuit-base-background-color:   $color-black;
+$inuit-base-text-color:         $color-gray-light;
+
+// Links
+$color-links:           $color-blue;
+$color-links-carousel:  $color-gray-ui;
+
+// Text
+$color-code:            $color-green;
+$color-pre-background:  $color-white;
+$color-pre:             $color-brand;
+
+// Buttons
+$color-btn:     $color-white;
+
+// Iconic
+$color-iconic:  $color-gray-ui;
+
+// Page head
+$color-masthead:                $color-brand;
+$color-page-head-border:        $color-blue;
+$color-page-head:               $color-brand;
+$color-page-head-background:    $color-brand;
+
+// Site nav
+$color-site-nav:    $inuit-base-text-color;
+
+// Page foot
+$color-page-foot:               $color-brand;
+
+// Page micro
+$color-page-micro:              $color-brand;
+$color-page-micro-background:   $color-white;
+
+// Headings
+$color-headings:     $color-gray-light;
+$color-heading-main: $color-green;
+$color-heading-sub:  $color-white;
+
+// Quotes
+$color-quote:           $color-gray-light;
+$color-quote--banner:   $color-white;
+
+// Boxes
+$color-box-highlight-background:    $color-highlight;
+$color-box-highlight-border:        $color-gray-ui;
+$color-box-tint-background:         $color-tint;
+
+// Bands
+$color-band-highlight-background:   $color-highlight;
+$color-band-tint-background:        $color-tint;
+

@@ -1,0 +1,11 @@
+/* ==========================================================================
+   #LINKS
+   ========================================================================== */
+a {
+	color: $color-green;
+	text-decoration: none;
+	transition: $global-transition;
+	&:hover {
+		color: lighten($color-green, 20%);
+	}
+}

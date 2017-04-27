@@ -1,0 +1,25 @@
+.c-client-list {
+    margin:0;
+    padding:0;
+    list-style:none;
+    text-align:center;
+}
+.c-client-list__item {
+    display:inline-block;
+    padding: 12px;
+    @include mq($from: tablet) {
+        padding: 24px;
+        cursor: pointer;
+    }
+}
+
+.c-client-list__logo {
+    background-color: $color-blue;
+    height: 24px;
+    transition: 0.2s;
+    @include mq($from: tablet) {
+        &:hover{
+            background-color: lighten($color-blue, 10%);
+        }
+    }
+}
