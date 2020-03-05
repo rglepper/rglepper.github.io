@@ -9,7 +9,6 @@ h1, h2, h3, h4, h5, h6 {
 .c-heading-main {
     color: $color-heading-main;
     text-transform: lowercase;
-    text-align: right;
     transition: $global-transition;
     @include inuit-font-size($inuit-font-size-h1*.9, $important: true);
     @include mq(mobile-lg) {
@@ -19,6 +18,7 @@ h1, h2, h3, h4, h5, h6 {
         @include inuit-font-size($inuit-font-size-h1*1.4, $important: true);
     }
     @include mq(desktop) {
+        text-align: right;
         @include inuit-font-size($inuit-font-size-h1*1.6, $important: true);
     }
 }

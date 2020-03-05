@@ -3,21 +3,26 @@
    ========================================================================== */
 
 .c-header {
-  @include mq(mobile-lg) {
+  @include mq(mobile) {
     background-image: url('../img/main-bg.jpg');
-    background-size: 67%;
+    background-size: 100%;
     background-repeat: no-repeat;
-    height: 380px;
+    background-position-y: 76px;
+    height: 438px;
+  }
+  @include mq(mobile-lg) {
+    background-size: 37%;
+    height: 375px;
   }
   @include mq(tablet) {
     background-size: 78%;
-    height: 580px;
+    height: 640px;
   }
   @include mq(desktop) {
-    background-size: 67%;
-    height: 680px;
+    background-size: 72%;
+    height: 768px;
   }
   @include mq(wide) {
-    height: 780px;
+    height: 900px;
   }
 }
